@@ -1,0 +1,28 @@
+.third {
+    padding: 100px 0;
+
+    &__item {
+        position: relative;
+        padding-bottom: 50px;
+    }
+
+    .swiper-slide {
+        width: 366px;
+    }
+
+    &__img {}
+
+    &__text {
+        padding: 10px 30px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #757575;
+        background: #FFFFFF;
+        border-radius: 25px;
+        position: absolute;
+        bottom: 0;
+        left: 10px;
+        right: 10px;
+    }
+}
